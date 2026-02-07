@@ -1,0 +1,42 @@
+{
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Main",
+         "request": "launch",
+         "mainClass": "Exercise2.Main",
+         "projectName": "CMP269_750c822c"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Launch Local Node File",
+         "console": "integratedTerminal",
+         "program": "${file}"
+      },
+      {
+         "name": "Launch index.html",
+         "type": "chrome",
+         "request": "launch",
+         "file": "${workspaceFolder}/index.html"
+      },
+      {
+         "args": [
+            "-u",
+            "bdd",
+            "--timeout",
+            "999999",
+            "--colors",
+            "${workspaceFolder}/test"
+         ],
+         "internalConsoleOptions": "openOnSessionStart",
+         "name": "Mocha Tests",
+         "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+         "request": "launch",
+         "skipFiles": [
+            "<node_internals>/**"
+         ],
+         "type": "pwa-node"
+      }
+   ]
+}
