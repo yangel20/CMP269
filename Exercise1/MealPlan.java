@@ -5,7 +5,7 @@ public class MealPlan extends PaymentMethod {
    private String status = "Pending";
 
    public MealPlan(String accountHolder, double balance) {
-      super(accountHolder, balance); // ✅ correct order
+      super(accountHolder, balance);
       validateAccount();
    }
 
