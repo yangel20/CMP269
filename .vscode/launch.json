@@ -2,6 +2,13 @@
    "configurations": [
       {
          "type": "java",
+         "name": "Processor",
+         "request": "launch",
+         "mainClass": "Exercise3.Processor",
+         "projectName": "CMP269_750c822c"
+      },
+      {
+         "type": "java",
          "name": "Main",
          "request": "launch",
          "mainClass": "Exercise2.Main",
