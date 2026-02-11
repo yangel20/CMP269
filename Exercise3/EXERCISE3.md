@@ -20,6 +20,6 @@ Bonus Challenge (Optional)
 If a student's average is below 60, throw a custom checked exception named LowGradeException and catch it to mark that student with a "Warning" flag in your report.
 Checklist for Success
 [✅] Did you handle the FileNotFoundException?
-[ ] Is your PrintWriter inside the try so it closes automatically?
-[ ] Does your program stay running even if one line in the input file is corrupted?
-[ ] Did you use hasNextLine() or hasNext() to avoid NoSuchElementExce
+[✅] Is your PrintWriter inside the try so it closes automatically?
+[✅] Does your program stay running even if one line in the input file is corrupted?
+[✅] Did you use hasNextLine() or hasNext() to avoid NoSuchElementExce

@@ -1,0 +1,9 @@
+Student: Alice_Smith | Average: 84.0.
+Student: Michael_Myers | Average: 90.0.
+Student: Jason_Voorhees | Average: 87.0.
+Student: Freddy_Krueger | Average: 80.0.
+Student: Leatherface_Sawyer | Average: 76.0.
+Student: Ghostface_Killer | Average: 88.0.
+Student: Chucky_Doll | Average: 70.0.
+Student: Pinhead_Hell | Average: 83.0.
+Student: Yangel_Aguilera | Average: 0.0 | WARNING: below average
