@@ -79,7 +79,6 @@ class MealPlan(PaymentMethod):
         return f"MealPlan [{self.account_holder}] Status: {self.status}, Balance: {self.balance}"
 
 
-# Main
 if __name__ == "__main__":
     payment_queue: list[Payable] = [
         CreditCard("Student cc", 100.0, 200.0),
